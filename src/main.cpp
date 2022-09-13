@@ -6,6 +6,8 @@ int main()
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
     //hello, it's a test
+    // it's a 2nd test
+    printf("sdf");
     while (window.isOpen())
     {
         sf::Event event;
